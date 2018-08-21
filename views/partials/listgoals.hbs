@@ -1,0 +1,35 @@
+ 
+<section class="ui raised segment">
+  
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>Target BMI</th>
+      <th>Achievable Date</th>
+      <th>Goal Status</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+   {{#each goals}}
+      <tr>
+        <td>
+          {{desired}}
+        </td>
+        <td>
+          {{targetdate}}
+        </td>
+      <td>
+        <i class="green thumbs up icon"></i>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+  
+</section>
+
+
+
+
+
